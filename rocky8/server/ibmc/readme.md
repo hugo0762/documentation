@@ -1,6 +1,6 @@
 BIOS IBMC 설정 방법
 
-1. 바이오스 진입 후, Server Mgmt 탭으로 이동 후 BMC Network Conrfiguration 진입<br><br>
+1. 바이오스 진입(DEL) 후, Server Mgmt 탭으로 이동 후 BMC Network Conrfiguration 진입<br><br>
 ![bmc1](https://github.com/hugo0762/SE/blob/main/IBMC_Config/images/bmc1.png)
 2. Sharelink Network ‘Disabled’ 설정<br><br>
 ![bmc2](https://github.com/hugo0762/SE/blob/main/IBMC_Config/images/bmc2.png)
