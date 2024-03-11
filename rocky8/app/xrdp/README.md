@@ -6,6 +6,8 @@ xrdp from EPEL and with using tigervnc
 ### 1.1 Install
 
     dnf -y install epel-release
+    gpgkey 가 없다는 에러 발생 시
+    dnf -y install epel-release --nogpgcheck
     dnf --enablerepo=epel -y install xrdp
     
 ### 1.2 Config
