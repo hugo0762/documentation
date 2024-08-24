@@ -99,8 +99,15 @@ Slave_IO_Running=$SLAVE_IO_RUNNING,
 Slave_SQL_Running=$SLAVE_SQL_RUNNING
 ````
 
-### 1.3 Edit crontab
-````   
+### 1.3 Change Property
+````
+chmod a+x 220_detect_check_replication_delay.sh
+chmod a+x /root/plura_batch/230_detect_check_replication_delay.sh
+chmod a+x /root/plura_batch/60_detect_check_replication_delay.sh
+````
+
+### 1.4 Edit crontab
+````
     crontab -l
     crontab -e
     
@@ -108,12 +115,12 @@ Slave_SQL_Running=$SLAVE_SQL_RUNNING
     systemctl status crond
 ````
 
-### 1.4 crontab -l
+### 1.5 crontab -l
 ````   
 */20 * * * * /root/plura_batch/220_detect_check_replication_delay.sh > /dev/null 2>&1 &
 */30 * * * * /root/plura_batch/230_detect_check_replication_delay.sh > /dev/null 2>&1 &
 */60 * * * * /root/plura_batch/60_detect_check_replication_delay.sh > /dev/null 2>&1 &
-````    
+```` 
 
 ### X. Useful Links
 
