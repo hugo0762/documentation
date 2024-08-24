@@ -99,7 +99,7 @@ Slave_IO_Running=$SLAVE_IO_RUNNING,
 Slave_SQL_Running=$SLAVE_SQL_RUNNING
 ````
 
-### 1.3 Crontab
+### 1.3 Edit crontab
 ````   
     crontab -l
     crontab -e
@@ -108,7 +108,7 @@ Slave_SQL_Running=$SLAVE_SQL_RUNNING
     systemctl status crond
 ````
 
-### 1.3 crontab -l
+### 1.4 crontab -l
 ````   
 */20 * * * * /root/plura_batch/220_detect_check_replication_delay.sh > /dev/null 2>&1 &
 */30 * * * * /root/plura_batch/230_detect_check_replication_delay.sh > /dev/null 2>&1 &
@@ -118,5 +118,4 @@ Slave_SQL_Running=$SLAVE_SQL_RUNNING
 ### X. Useful Links
 
 https://www.server-world.info/en/note?os=CentOS_Stream_8&p=mysql8&f=1
-
 
