@@ -85,9 +85,10 @@ done
 
 ### 1.2 logger
 ````
-    # 로그 메시지 출력 형식
-    logger -t $LOG_TAG -p local0.info "Slave=$SLAVE_HOST, Master Log File=$MASTER_LOG_FILE, Master Log Position=$MASTER_LOG_POS, Slave Master Log File=$SLAVE_MASTER_LOG_FILE, Relay Log File=$SLAVE_RELAY_LOG_FILE, Seconds Behind Master=$SECS_BEHIND_MASTER, Slave_IO_Running=$SLAVE_IO_RUNNING, Slave_SQL_Running=$SLAVE_SQL_RUNNING"
+# 로그 메시지 출력 형식
+logger -t $LOG_TAG -p local0.info "Slave=$SLAVE_HOST, Master Log File=$MASTER_LOG_FILE, Master Log Position=$MASTER_LOG_POS, Slave Master Log File=$SLAVE_MASTER_LOG_FILE, Relay Log File=$SLAVE_RELAY_LOG_FILE, Seconds Behind Master=$SECS_BEHIND_MASTER, Slave_IO_Running=$SLAVE_IO_RUNNING, Slave_SQL_Running=$SLAVE_SQL_RUNNING"
 ````
+
 ````
 Slave=$SLAVE_HOST,
 Master Log File=$MASTER_LOG_FILE,
@@ -108,11 +109,11 @@ chmod a+x /root/plura_batch/60_detect_check_replication_delay.sh
 
 ### 1.4 Edit crontab
 ````
-    crontab -l
-    crontab -e
+crontab -l
+crontab -e
     
-    systemctl restart crond
-    systemctl status crond
+systemctl restart crond
+systemctl status crond
 ````
 
 ### 1.5 crontab -l
