@@ -131,6 +131,6 @@
 
 ### X. Useful Links
 
-https://www.server-world.info/en/note?os=CentOS_Stream_8&p=mysql8&f=1
+> https://www.server-world.info/en/note?os=CentOS_Stream_8&p=mysql8&f=1
 
 
