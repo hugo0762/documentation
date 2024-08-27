@@ -1,5 +1,5 @@
 1. Test this media & install Rocky Linux 9.3 선택<br><br>
-![h1](https://github.com/QubitSecurity/documentation/blob/main/rocky9/install/images/1.jpg)
+![h1](https://github.com/QubitSecurity/documentation/blob/main/rocky9/install/images/1.png)
 2. OS 미디어 체크 및 설치 시작<br><br>
 
 3. English 선택 후 Continue<br><br>
