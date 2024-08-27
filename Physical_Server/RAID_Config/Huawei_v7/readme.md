@@ -17,36 +17,38 @@
 
 8. Create Virtual Drive 선택
 
-9. Select RAID Level 선택하고 오른쪽 활성 창에서 RAID5 선택
+9. Select RAID Level 선택
 
-10. Select Drives 선택
+10. 오른쪽 활성 창에서 RAID5 선택
 
-11. 창 아래로 이동하여 Check All 클릭하여 모든 드라이브 활성화
+11. Select Drives 선택
 
-12. 최하단 드라이브만 다시 Disable하고 Apply Changes
+12. 창 아래로 이동하여 Check All 클릭하여 모든 드라이브 활성화
 
-13. OK
+13. 최하단 드라이브만 다시 Disable하고 Apply Changes
 
-14. Save Configration 선택
+14. OK
 
-15. YES
+15. Save Configration 선택
 
-16. OK
+16. YES
 
-17 Drive Management 선택
+17. OK
 
-18 최하단 드라이브를 제외한 모든 드라이브는 Online 확인 최하단 드라이브 선택
+18 Drive Management 선택
 
-19. Operation 선택
+19 최하단 드라이브를 제외한 모든 드라이브는 Online 확인 최하단 드라이브 선택
 
-20. 오른쪽 활성 창에서 Assign Global Hot Spare 선택
+20. Operation 선택
 
-21. Go
+21. 오른쪽 활성 창에서 Assign Global Hot Spare 선택
 
-22. OK
+22. Go
 
-23. 다시 Drive Management 를 들어가면 모든 드라이브 설정 확인
+23. OK
 
-24. 바이오스 메인 창에서 Setup Utility 선택
+24. 다시 Drive Management 를 들어가면 모든 드라이브 설정 확인
 
-25. Exit 에서 Save Changes & Exit 선택하여 서버 재기동
+25. 바이오스 메인 창에서 Setup Utility 선택
+
+26. Exit 에서 Save Changes & Exit 선택하여 서버 재기동
